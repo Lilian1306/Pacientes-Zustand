@@ -6,6 +6,8 @@ export default function PatientForm() {
 
     const { register, handleSubmit, formState: {errors} } = useForm()
 
+
+    // muestra el error en pantalla para llenar todos los campos requeridos
     const registerPatient = () => {
         console.log('Nuevo Paciente')
     }
